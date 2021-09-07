@@ -1,0 +1,35 @@
+/* Top vector styles */
+.custom-shape-divider-top-1626280389 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1626280389 svg {
+    position: relative;
+    display: block;
+    width: calc(151% + 1.3px);
+    height: 269px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626280389 .shape-fill {
+    fill: #501098;
+}
+
+.home-title {
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    z-index: 1;
+    color: white;
+    font-size: 38px;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}

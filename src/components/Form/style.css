@@ -1,0 +1,78 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.tabs {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 46% 46%;
+    justify-content: space-between;
+}
+
+.tab-btn {
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    background: none;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+.tab-btn:hover {
+    cursor: pointer;
+}
+
+/* .tab-btn-selected {
+    border-bottom: 2px solid #000000;
+} */
+
+.inputs {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 18px;
+    padding: 20px 0;
+}
+
+.inputs input {
+    height: 85px;
+    width: 450px;
+    border: 3px solid #501098;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 26px;
+    color: black;
+}
+
+input:focus-visible {
+    outline: none;
+    border: 5px solid #501098;
+}
+
+.primary-btn {
+    height: 54px;
+    background: #501098;
+    color: white;
+    font-size: 24px;
+    border-radius: 7px;
+    border: none;
+    padding: 12px;
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+}
+
+.tab-btn-selected {
+    position: absolute;
+    width: 90%;
+    height: 30px;
+    /* background: none; */
+    /* font-size: 24px; */
+    /* font-weight: 700; */
+}

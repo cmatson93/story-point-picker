@@ -1,0 +1,61 @@
+.session-container {
+    display: grid;
+    grid-template-columns: 28% auto;
+}
+
+.session-content {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.session-content .waiting-container {
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.session-content .waiting-container h2 {
+    margin-bottom: 18px;
+}
+
+.session-content .choosing-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.session-content .choosing-container h2 {
+    margin-top: 2rem;
+}
+
+#waiting-h2 {
+    align-self: center;
+    margin-top: 45%;
+}
+
+.session-content .choosing-container p {
+    color: #d60068;
+    align-self: center;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 5rem 0;
+}
+
+.selection-text {
+    align-self: center;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.selection-text span {
+    color: #501098;
+    font-weight: 700;
+    text-decoration: underline;
+}

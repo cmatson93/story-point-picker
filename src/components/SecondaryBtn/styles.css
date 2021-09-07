@@ -1,0 +1,15 @@
+.secondary-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+/* TODO: Add some animations here */
+.secondary-btn:hover {
+    cursor: pointer;
+}
